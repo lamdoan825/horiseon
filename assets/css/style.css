@@ -41,17 +41,14 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-/*end of header*/
 
 a {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
+/*end of header*/
 
-p {
-    font-size: 16px;
-}
-
+/*hero*/
 .hero {
     height: 800px;
     width: 100%;
@@ -60,24 +57,31 @@ p {
     background-size: cover;
     background-position: center;
 }
+/*end of hero*/
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
+/*article box*/
+.article-box {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/*benefit*/
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+p {
+  font-size: 16px;
+}
+/*end of article-box*/
+
+/*right column*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -136,7 +140,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-/*end of benefit*/
+/*end of right column*/
 
 /*search engine*/
 .search-engine-optimization {
